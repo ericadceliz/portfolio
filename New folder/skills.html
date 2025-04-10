@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Skills - e.design Portfolio</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      height: 100%;
+      font-family: 'Arial', sans-serif;
+      background-color: #ffffff;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 1rem 2rem;
+      text-align: center;
+      position: relative;
+      z-index: 10;
+      border-bottom: 1px solid #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #000000;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #333333;
+    }
+
+    header .logo {
+      width: 50px;
+      height: auto;
+    }
+
+    nav {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      z-index: 10;
+      position: relative;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000000;
+      font-weight: bold;
+      margin: 0 2rem;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #555555;
+    }
+
+    section {
+      padding: 6rem 8rem;
+      max-width: 1100px;
+      margin: auto;
+      text-align: center;
+    }
+
+    h2 {
+      color: #000000;
+      font-size: 2.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .content-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 30px;
+      margin-top: 2rem;
+    }
+
+    .card {
+      background-color: white;
+      border: 2px solid #000;
+      border-radius: 10px;
+      padding: 20px;
+      width: 250px;
+      text-align: center;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    }
+
+    .card img {
+      width: 100%;
+      border-radius: 10px;
+      transition: transform 0.3s ease;
+    }
+
+    .card:hover img {
+      transform: scale(1.1);
+    }
+
+    .card h3 {
+      color: #000000;
+      font-size: 1.3rem;
+    }
+
+    .card p {
+      color: #333333;
+      font-size: 0.9rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #ffffff;
+      font-size: 1rem;
+      color: #000000;
+      border-top: 1px solid #000;
+      box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.pinimg.com/736x/c8/ff/88/c8ff8833626a2706a5518978a4f77f33.jpg" alt="Logo" class="logo" />
+    <div>
+      <h1>e.design</h1>
+    </div>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="expertise.html">Expertise</a>
+    <a href="education.html">Education</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section>
+    <h2>Skills</h2>
+    <div class="content-container">
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/77/a2/71/77a2719a5f9ade27941c879ae3c7bca9.gif" alt="Social Media Content" />
+        <h3>Social Media Content Creation</h3>
+        <p>Creating fun and eye-catching content that makes people stop, engage, and connect on social media.</p>
+      </div>
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/3f/00/79/3f0079ac4685ec6d5777142fc956207c.gif" alt="Web & Mobile Design" />
+        <h3>Web & Mobile Design</h3>
+        <p>Designing websites and apps that are simple to use and look great on any device.</p>
+      </div>
+      <div class="card">
+        <img src="https://i.pinimg.com/originals/b2/9d/a5/b29da5f92ed3117b0e3ad50ebc84d5d8.gif" alt="Typography & Layout" />
+        <h3>Typography & Layout Design</h3>
+        <p>Picking the right fonts and organizing content so it’s easy to read and feels good to look at.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>All rights reserved © 2025 Erica Celiz</p>
+  </footer>
+
+</body>
+</html>

@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>About - e.design Portfolio</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #ffffff;
+      scroll-behavior: smooth;
+    }
+
+    header {
+      background-color: #ffffff;
+      padding: 1rem 0;
+      text-align: center;
+      position: relative;
+      z-index: 10;
+      border-bottom: 1px solid #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+      
+    }
+
+    header h1 {
+      font-size: 2rem;
+      color: #000000;
+      margin: 0;
+    }
+
+    header p {
+      font-size: 1rem;
+      color: #333333;
+    }
+
+    header .logo {
+      width: 50px; 
+      height: auto;
+    }
+
+    nav {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      padding: 1rem 0;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      z-index: 10;
+      position: relative;
+    }
+
+    nav a {
+      text-decoration: none;
+      color: #000000;
+      font-weight: bold;
+      margin: 0 2rem;
+      font-size: 1rem;
+      transition: color 0.3s;
+    }
+
+    nav a:hover {
+      color: #555555;
+    }
+
+    #about {
+      background-color: #ffffff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      padding: 6rem 8rem;
+      color: #000000;
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      box-sizing: border-box;
+      box-shadow: 0px -10px 20px -10px rgba(0, 0, 0, 0.2), 0px 10px 20px -10px rgba(0, 0, 0, 0.2); 
+    }
+
+    .about-container {
+      display: flex;
+      flex-direction: row;
+      max-width: 1000px;
+      width: 100%;
+      background-color: #ffffff;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .text-section {
+      flex: 2;
+      padding: 2rem 3rem;
+    }
+
+    .text-section h2 {
+      color: #000000;
+      font-size: 2.5rem;
+      margin-top: 0;
+    }
+
+    .text-section p {
+      color: #333333;
+      font-size: 1.1rem;
+      line-height: 1.8;
+    }
+
+    .image-section {
+      flex: 1;
+      background-color: #ffffff;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+
+    .image-section img {
+      max-width: 80%;
+      max-height: 300px;
+      border-radius: 8px;
+      object-fit: cover;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #ffffff;
+      font-size: 1rem;
+      color: #000000;
+      border-top: 1px solid #000;
+      box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <img src="https://i.pinimg.com/736x/c8/ff/88/c8ff8833626a2706a5518978a4f77f33.jpg" alt="Logo" class="logo" />
+    <div>
+      <h1>e.design</h1>
+    </div>
+  </header>
+
+  <nav>
+    <a href="home.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="skills.html">Skills</a>
+    <a href="expertise.html">Expertise</a>
+    <a href="education.html">Education</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <section id="about">
+    <div class="about-container">
+      <div class="text-section">
+        <h2>About Me</h2>
+        <p>Hi there! I'm Erica D. Celiz, a graphic designer with a passion for creating designs that aren't just beautiful, but meaningful. Whether it’s the clean layout or subtle typography, I believe in the power of design to tell stories and connect people. With a keen eye for detail and a love for all things creative, I aim to bring your ideas to life in a way that feels personal and authentic.</p>
+      </div>
+      <div class="image-section">
+        <img src="https://scontent.fmnl7-1.fna.fbcdn.net/v/t39.30808-6/486617980_1669338570642720_5333181180336783088_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeFCNdR1vapDaRV0MMNnrzHPjVOnttAIPiCNU6e20Ag-IONzNvWLt778-jLxf4zLdPUDcZlfB13I02tuR3QUoHYy&_nc_ohc=6b14v8t7t2UQ7kNvwG_Zt5K&_nc_oc=AdmdwLUiC1HV15BHG-hohnPF6AgKpM2GXreMms9iUg4-uv1SdGrUkEMUuy2qB8eDMtw&_nc_zt=23&_nc_ht=scontent.fmnl7-1.fna&_nc_gid=YcBiht2mOq9qNoxZRiattA&oh=00_AfH5X2Ws_XT_F5B3S3B5uZb6VyqBEBbIY6bkW5XsSsjzPQ&oe=67FC2FB6" alt="Erica D. Celiz">
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p>All rights reserved © 2025 e.design</p>
+  </footer>
+
+</body>
+</html>
